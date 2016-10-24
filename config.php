@@ -1,6 +1,6 @@
 <?php
 error_reporting(0);
-$token = 'EAAAACZAVC6ygBAJwe6F0oDbj0Fy2mUZBhHbnzdZCOJCcvP502ZAoKOb1jlQh5EFGDtgPz0fkvaSV8QSKZAtCYcEuld6NTMsjJTGRM0uVbSkpg1CVzYPNIPhZCFY7vwtHeJZCvcTVzZBq5sMVdij1qa0V86ojlESsGCMZD';
+$token = '';
 define("ACCESS_TOKEN",$token);
 function auto($url){
     $ch = curl_init();
